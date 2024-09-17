@@ -17,25 +17,25 @@ class ModernMailSenderApp(QMainWindow):
         self.setGeometry(100, 100, 800, 600)
         self.setStyleSheet("""
             QMainWindow {
-                background-color: #1F1F1F;  /* Arka plan koyu gri */
+                background-color: #1F1F1F;  
             }
             QLabel, QLineEdit, QPushButton, QTextEdit, QRadioButton, QComboBox {
-                color: #F5F5F5;  /* Beyaz metin */
+                color: #F5F5F5; 
                 font-family: Arial, sans-serif;
                 font-size: 14px;
             }
             QPushButton {
-                background-color: #3498DB;  /* Mavi buton */
+                background-color: #3498DB;  
                 color: white;
                 border-radius: 5px;
                 padding: 10px;
                 border: none;
             }
             QPushButton:hover {
-                background-color: #2980B9;  /* Hover efekti */
+                background-color: #2980B9;  
             }
             QLineEdit, QTextEdit {
-                background-color: #2E2E2E;  /* Form alanları için koyu gri */
+                background-color: #2E2E2E;  
                 border: 1px solid #555;
                 border-radius: 3px;
                 padding: 5px;
